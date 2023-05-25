@@ -60,7 +60,7 @@ public class CommunicationThread extends Thread{
                 String pageSourceCode = "";
 
                 // make the HTTP request to the web service
-                HttpGet httpGet = new HttpGet(Constants.WEB_SERVICE_ADDRESS);
+                HttpGet httpGet = new HttpGet(Constants.WEB_SERVICE_ADDRESS + word);
                 HttpResponse httpGetResponse = httpClient.execute(httpGet);
                 HttpEntity httpGetEntity = httpGetResponse.getEntity();
                 if (httpGetEntity != null) {
