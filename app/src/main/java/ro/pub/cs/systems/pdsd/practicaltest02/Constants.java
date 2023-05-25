@@ -5,7 +5,7 @@ public class Constants {
     final public static boolean DEBUG = true;
 
     final public static String WEB_SERVICE_API_KEY = "dbd3b02d8958d62185d02e944cd5f522";
-    final public static String WEB_SERVICE_ADDRESS = "https://api.dictionaryapi.dev/api/v2/entries/en/car";
+    final public static String WEB_SERVICE_ADDRESS = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 
     final public static String UNITS = "metric";
     final public static String TEMPERATURE = "temperature";
